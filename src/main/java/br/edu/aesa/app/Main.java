@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Bem-vindo(a) ao Gerenciador de Tarefas!");
 
         while (opcao != 0) {
-            System.out.println("\n========= MENU =========");
+            System.out.println("\n========== MENU ==========");
             System.out.println("[1] Cadastrar novo registro");
             System.out.println("[2] Listar todos os registros");
             System.out.println("[3] Buscar registro por ID");

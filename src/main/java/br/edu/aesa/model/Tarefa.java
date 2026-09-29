@@ -27,7 +27,7 @@ public class Tarefa {
 
     @Override
     public String toString() {
-        return String.format("ID: %d | Título: %s | Prioridade: %s | Status: %s",
+        return String.format("ID: %d | Título: %s | Prioridade: %s | Status: %s ",
                 id, titulo, prioridade, status);
     }
 }

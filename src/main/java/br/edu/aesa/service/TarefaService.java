@@ -46,7 +46,7 @@ public class TarefaService {
         for (Tarefa t : tarefas) {
             System.out.println(t.toString());
         }
-        System.out.println("------------------------");
+        System.out.println("--------------------------");
     }
 
     public void buscarPorId(int id) {
@@ -69,6 +69,7 @@ public class TarefaService {
             System.out.println("Erro: Não é possível atualizar. ID " + id + " não existe.");
         }
     }
+
 
     public void remover(int id) {
         Tarefa tarefa = buscarTarefaPorIdInterno(id);
